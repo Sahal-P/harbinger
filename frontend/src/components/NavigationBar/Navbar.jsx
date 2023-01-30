@@ -7,10 +7,10 @@ function Navbar() {
   return (
     <div class="containe-fluid">
         <div >
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg  navigationBar">
         <div class="container-fluid">
             <Link to={'/'}>
-            <h1 class="navbar-brand">
+            <h1 class="navbar-brand siteName">
               Harbinger
             </h1>
             </Link>
@@ -22,7 +22,7 @@ function Navbar() {
                  
                 </div>
                 <div class="navbar-nav ms-auto">
-                   <p>Login</p>
+                   <button class="button-70" >Login</button>
                 </div>
             </div>
         </div>
