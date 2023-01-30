@@ -11,7 +11,7 @@ function Navbar() {
         <div class="container-fluid">
             <Link to={'/'}>
             <h1 class="navbar-brand">
-              home
+              Harbinger
             </h1>
             </Link>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
