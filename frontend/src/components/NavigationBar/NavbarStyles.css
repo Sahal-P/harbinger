@@ -6,8 +6,8 @@
     outline: 0;
     cursor: pointer;
     color: white;
-    background-color: rgb(84, 105, 212);
-    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(159, 159, 159) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
@@ -15,14 +15,14 @@
     display: inline-block;
     min-height: 28px;
     transition: background-color .24s,box-shadow .24s;
-    
-
-   
-    
 }
+
 .navigationBar{
     background-color: #131313;
 }
 .siteName{
     color: white;
+}
+.siteName:hover{
+    color: whitesmoke;
 }

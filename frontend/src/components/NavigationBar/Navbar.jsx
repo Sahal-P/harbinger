@@ -22,7 +22,9 @@ function Navbar() {
                  
                 </div>
                 <div class="navbar-nav ms-auto">
+                  <Link to={"/userLogin"}>
                    <button class="button-70" >Login</button>
+                  </Link>
                 </div>
             </div>
         </div>
