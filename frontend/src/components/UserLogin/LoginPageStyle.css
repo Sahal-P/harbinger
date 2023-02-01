@@ -18,7 +18,7 @@ form p{
 }
 form p a {
     text-decoration: none;
-    color: #38383898;
+    color: #383838;
 }
 .login-container{
     min-width: 100%;
@@ -34,6 +34,7 @@ form p a {
     max-width: 500px;
     position: absolute;
     left: 50%;
+    top: -5%;
     transform: translate(-50%,50%);
     padding: 50px 60px 0;
     text-align: center;
@@ -98,9 +99,9 @@ form p a {
 
 }
 .btn-field button{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     flex-basis: 48%;
-    background: #7d7d7dc4;
+    background: #363636c4;
     color: rgb(255, 255, 255);
     height: 40px;
     border-radius: 20px;
@@ -112,8 +113,13 @@ form p a {
 
 @media screen and (max-width: 480px) {
     .form-box{
-       
-        padding: 50px 10px 0;
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translate(-50%,50%);
+    padding: 50px 10px 0;
+    text-align: center;
     }
-    
 }
