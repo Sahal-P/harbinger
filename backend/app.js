@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-var userRouter = require('./routes/index');
+var userRouter = require('./routes/users');
 app.use('/', userRouter);
 
 
