@@ -8,7 +8,7 @@ var cors=require('cors')
 
 var app = express();
 
-app.use(logger('dev'));
+// app.use(logger('dev'));
 app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
