@@ -9,13 +9,13 @@ function HomePage1() {
       <div className='contentHomePage'>
         <div class="card" className='homePageContent1' >
           <div class="card-body">
-            <p class="card-text p-2 homePageMessageContent1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dolore?</p>
+            <p class="card-text p-2 homePageMessageContent1">adarsh ipsum dolor sit amet consectetur adipisicing elit. Ab, dolore?</p>
           </div>
         </div>
       </div>
       <div className='contentHomePage2'>
         <div class="card" className='homePageContent2' >
-          <div class="card-body">   
+          <div class="card-body">
             <p class="card-text p-2 homePageMessageContent2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
