@@ -16,7 +16,7 @@ function HomePage1() {
       <div className='contentHomePage2'>
         <div class="card" className='homePageContent2' >
           <div class="card-body">
-            <p class="card-text p-2 homePageMessageContent2">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card-text p-2 homePageMessageContent2">adarsh ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>
       </div>
